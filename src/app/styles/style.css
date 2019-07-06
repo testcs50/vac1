@@ -1,0 +1,17 @@
+#root {
+    display: flex;
+    font-size: 14px;
+}
+
+.tickets-filter {
+    flex-basis: 30%;
+}
+
+.tickets-list {
+    flex-grow: 1;
+}
+
+.tickets-list > div {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
